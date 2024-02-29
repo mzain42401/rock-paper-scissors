@@ -159,10 +159,10 @@ setpcwin(true)
 <div className='md:w-[50%]  flex justify-end   h-[165px] w-[45%]'><img  src={pcImg} alt="img" /></div>
       </section>
       <div className='m-auto  relative  flex justify-evenly items-center  md:w-1/2 md:mt-0 mt-4'>
-  <div><img onClick={()=>play(userrock)} className='h-32 cursor-pointer ' src={rock} alt="rock" /></div>
+  <div><img onClick={()=>play(userrock)} className='md:h-32 h-28 cursor-pointer ' src={rock} alt="rock" /></div>
 
-  <div><img onClick={()=>play(userPaper)} className='h-32  cursor-pointer md:absolute top-[-120px] left-[40%]' src={paper} alt="paper" /></div>
-  <div><img onClick={()=>play(userscissor)} className='h-32 cursor-pointer' src={scissors} alt="scissors" /></div>
+  <div><img onClick={()=>play(userPaper)} className='md:h-32 h-28  cursor-pointer md:absolute top-[-120px] left-[40%]' src={paper} alt="paper" /></div>
+  <div><img onClick={()=>play(userscissor)} className='md:h-32 h-28 cursor-pointer' src={scissors} alt="scissors" /></div>
 
   
 </div>
