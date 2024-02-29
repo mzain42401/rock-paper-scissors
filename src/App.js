@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Top from "./components/Top.js";
 import Btn from './components/Btn.js';
 const App = () => {
   const [color,setcolor]=useState(false)
